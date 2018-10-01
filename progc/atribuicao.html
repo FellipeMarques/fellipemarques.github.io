@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <LINK REL="SHORTCUT ICON" href="icon.ico">
+    <font face="Tahoma" color="white">
+        <meta charset="utf-8">
+        <title>Progamação em C</title>
+    </head>
+    <body background="fundo.jpg" bgcolor="black">
+        <div id = "menu" align="center">
+            <ul>
+                <li><a href ="index.html">Inicio</a></li>
+                <li><a href ="variaveis.html">Variáveis</a></li>
+                <li><a href ="atribuicao.html" class="atribuicao">Atribuição</a></li>
+                <li><a href ="condicao.html">Condição</a></li>
+                <li><a href ="repeticao.html">Repetição</a></li>   
+            </div>
+            <br>
+            <br>
+            <div>
+              <h1 class="texto"> Atribuição
+                <p>
+                    No código abaixo, estamos declarando uma variável de nome x e a esta estamos atribuindo o valor 10. Em seguida, dizemos que a variável x deve receber o valor dela mesma, mais 5. Isso acontece porque estamos dizendo que: x é mais igual a 5. Logo, pega-se o valor que a variável 5 possui e a esta incremente 5 unidades.
+
+                    <pre>
+                        <code>
+                            int x = 10;
+                            x += 5;
+                        </code>
+                    </pre>
+                    <p>Exemplo de progama :
+                    </p>
+                    <pre>
+                        <code>
+                      int main()
+                      {
+                         int x  = 0;
+
+                         while(x < 11){
+                         printf("msg\n");
+                         x += 1;
+                       }
+
+                        /*
+
+                         1) += -> soma
+                         2) -= -> subtração
+                         3) *= -> multiplicação
+                         4) /= -> divisão
+                         5) %= -> resto da divisão
+
+                         */
+
+                         int i = 50;
+                         printf("soma: %i\n", i+=100);
+                         printf("subracao: %i\n", i-=50);
+                         printf("multiplicacao: %i\n", i*=3);
+                         printf("divisão: %i\n", i/=3);
+                         printf("resto: %i\n", i%=3);
+
+
+                         return 0;
+                        }
+                    </code>
+                </pre>
+
+                
+
+
+
+            </div>
+            <style type="text/css">
+
+            ul {
+                padding:6px;
+                margin:0px;
+                background-color:#EDEDED;
+                list-style:none;
+            }
+
+            ul li { display: inline; }
+
+            ul li a {
+                padding: 2px 10px;
+                display: inline-block;
+                background-color:#EDEDED;
+                color: #333;
+                text-decoration: none;
+                border-bottom:3px solid #EDEDED;
+                font-size: 20px
+            }
+            ul li a:hover {
+                color: #6C6C6C;
+                border-bottom:2px solid blue;
+
+            }
+            .atribuicao{
+               font-weight: bold;
+               font-size: 20px
+
+           }
+           h1{
+            color: #EDEDED;
+            text-align: center;
+        }
+        .prancha{
+            width:1000px;
+            height:1000px;
+            background-color: #2c2c2c;
+            filter: opacity(70%);
+        }
+        p{
+            font-size: 15px;
+            text-align: justify;
+            margin-left:30px;
+            margin-top: 20px;
+            margin-right:30px;
+            background-color: black;
+        }
+        .texto
+        {
+            background-color: black;
+            margin-left: 300px;
+            margin-right:300px;
+            filter: opacity(90%);
+        }
+        .p2{
+            font-size: 20px;
+        }
+
+        pre{
+            text-align: left;
+            font-size: 20px;
+            background-color: #27282;
+        }
+    </style>
+</body>
+</html>

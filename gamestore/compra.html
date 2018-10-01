@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<LINK REL="SHORTCUT ICON" href="icon.ico">
+	<a href="index.html">
+		<font face="Arial" color="white" style="font-weight:bold">
+			<meta charset="utf-8">
+			<title>Game Store - Compra</title>
+		</head>
+		<body bgcolor="2c2c2c">
+			<img src="voltar.png" align="right"></a>
+
+			<form>
+				<!--ESCOLHA DE JOGO-->
+				<fieldset>
+					<legend>Jogo</legend>
+					<table cellspacing="10">
+						<label for="Jogo">Selecione o jogo que deseja comprar:</label>
+						<td align="left">
+							<select name="Jogo">
+								<option value="null">Selecione:</option>
+								<option value="pubg">PUBG</option> 
+								<option value="gta5">Grand Theft Auto 5</option> 
+								<option value="r6">Rainbow Six Siege</option> 
+								<option value="lol">League of Legends</option> 
+								<option value="csgo">CSGO</option>
+								<option value="mh">Monster Hunter : WORD</option>
+							</select>
+						</td>
+					</table>
+				</fieldset>
+				<br />
+
+
+				<!-- DADOS PESSOAIS-->
+				<fieldset>
+					<legend>Dados Pessoais</legend>
+					<table cellspacing="10">
+						<tr>
+							<td>
+								<label for="nome">Nome Completo: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="nome">
+							</td>
+							<td>
+								<label for="email">Email: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="email">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>Nascimento: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+								<input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+								<input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="rg">RG: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="rg" size="13" maxlength="13"> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label>CPF:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+
+				<br />
+				<!-- ENDEREÇO -->
+
+				<fieldset>
+					<legend>Endereço para Entrega </legend>
+					<table cellspacing="10">
+
+						<tr>
+							<td>
+								<label for="rua">Rua:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="rua">
+							</td>
+							<td>
+								<label for="numero">Número:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="numero" size="4">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="bairro">Bairro: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="bairro">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="estado">Estado:</label>
+							</td>
+							<td align="left">
+								<select name="estado"> 
+									<option value="null">Selecione:</option>
+									<option value="ac">Acre</option> 
+									<option value="al">Alagoas</option> 
+									<option value="am">Amazonas</option> 
+									<option value="ap">Amapá</option> 
+									<option value="ba">Bahia</option> 
+									<option value="ce">Ceará</option> 
+									<option value="df">Distrito Federal</option> 
+									<option value="es">Espírito Santo</option> 
+									<option value="go">Goiás</option> 
+									<option value="ma">Maranhão</option> 
+									<option value="mt">Mato Grosso</option> 
+									<option value="ms">Mato Grosso do Sul</option> 
+									<option value="mg">Minas Gerais</option> 
+									<option value="pa">Pará</option> 
+									<option value="pb">Paraíba</option> 
+									<option value="pr">Paraná</option> 
+									<option value="pe">Pernambuco</option> 
+									<option value="pi">Piauí</option> 
+									<option value="rj">Rio de Janeiro</option> 
+									<option value="rn">Rio Grande do Norte</option> 
+									<option value="ro">Rondônia</option> 
+									<option value="rs">Rio Grande do Sul</option> 
+									<option value="rr">Roraima</option> 
+									<option value="sc">Santa Catarina</option> 
+									<option value="se">Sergipe</option> 
+									<option value="sp">São Paulo</option> 
+									<option value="to">Tocantins</option> 
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="cidade">Cidade: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="cidade">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="cep">CEP: </label>
+							</td>
+							<td align="left">
+								<input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+				<br />
+
+				<!--METODO DE PAGAMENTO-->
+				<fieldset>
+					<legend>Cartão de crédito</legend>
+					<table cellspacing="10">
+
+						<tr>
+							<td>
+								<label for="cartao">Número do cartão:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="cartao">
+							</td>
+							<td>
+								<label for="codseg">Codigo de Segurança:</label>
+							</td>
+							<td align="left">
+								<input type="text" name="codseg" size="4">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="nomec">Nome (escrito no cartão): </label>
+							</td>
+							<td align="left">
+								<input type="text" name="nomec">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="bandeira">Bandeira do Cartão:</label>
+							</td>
+							<td align="left">
+								<select name="bandeira"> 
+									<option value="null">Selecione:</option>
+									<option value="visa">VISA</option> 
+									<option value="mastercard">MASTERCARD</option> 
+									<option value="amex">Americam Express</option>
+									<option value="outra">Outra</option>
+									<tr>
+										<td>
+											<label>Validade do Cartão:</label>
+										</td>
+										<td align="left">
+											<input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+											<input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+										</td>
+									</tr>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+				<br />
+				<input type="button" onclick="funcao1()" value="COMPRAR" />
+				<input type="reset" value="LIMPAR">
+				<script>
+					function funcao1()
+					{
+						alert("A compra do jogo foi efetuada!");
+					}
+				</script>
+			</form>
+		</body>
+	</font>
+</a>
+</LINK>
+</head>
+</html>
