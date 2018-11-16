@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel = "shortcut icon" type = "imagem/x-icon" href = "imagens/icon.ico"/>
+	<title>Jogo da Velha</title>
+
+	<style type="text/css">
+		
+		#mostrador{
+			margin: auto;
+			margin-top: 40px;
+			width: 252px;
+			height: 80px;
+
+
+		}
+
+		.espaco{
+			width:80px;
+			height: 60px;
+			float: left;
+			text-align: center;
+			padding-top: 15px;
+			cursor: pointer;
+
+		}
+
+		.tabuleiro{
+			width: 252px;
+			height: 252px;
+			margin:auto;
+
+		}
+
+		.botao{
+		cursor: pointer;
+		float: left;
+		margin-right: 10px;
+		width: 252px;
+	    height: 35px;
+	    border-color: black;
+	    border-style: solid #000;
+	    margin-bottom: 20px;
+		}
+
+		#a1{border-right: 5px solid #000;
+			border-bottom: 5px solid #000;}
+
+		#a2{border-bottom:5px solid #000;
+			border-right: 5px solid #000;}
+
+		#a3{border-bottom: 5px solid #000;}
+
+		#b1{border-right: 5px solid #000;
+			border-bottom: 5px solid #000;}
+
+		#b2{border-right: 5px solid #000;
+			border-bottom: 5px solid #000;}
+
+		#b3{border-bottom: 5px solid #000;}
+		#c1{border-right: 5px solid #000;}
+		#c2{border-right:5px solid #000;}5
+	</style>
+
+
+</head>
+
+<body>
+	<div id="mostrador">
+		<p style="float: left; margin-right: 10px;">VEZ DO JOGADOR:</p>
+		<img src="" border="0" height="50">
+		
+	</div>
+
+	<div class="tabuleiro">
+		<input type="button" name="botao" value="Reiniciar Jogo" onclick="history.go(0)" class="botao">
+		<div id="a1" class="espaco" jogada=""></div>
+		<div id="a2" class="espaco" jogada=""></div>
+		<div id="a3" class="espaco" jogada=""></div>
+
+		<div id="b1" class="espaco" jogada=""></div>
+		<div id="b2" class="espaco" jogada=""></div>
+		<div id="b3" class="espaco" jogada=""></div>
+		
+		<div id="c1" class="espaco" jogada=""></div>
+		<div id="c2" class="espaco" jogada=""></div>
+		<div id="c3" class="espaco" jogada=""></div>	
+</div>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
