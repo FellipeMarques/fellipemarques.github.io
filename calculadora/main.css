@@ -29,11 +29,25 @@
 	margin-left: 650px;
 	width: 250px;
 	height: 50px;
-	font-style: italic;
+	font-style: bold;
     font-weight: bold;
     font-size: 30px;
     font-family: arial, sans-serif;
+    border-color: #737373;
+    background-color: white;
 
+}
+
+.limpar{
+    margin-left: 710px;
+    width: 150px;
+    height: 20px;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    border-color: #737373;
+    background-color: white;
 }
 
 h3{
