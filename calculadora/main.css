@@ -1,0 +1,46 @@
+#resultado{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+.al{
+	margin-left: 650px;
+	width: 250px;
+	height: 60px;
+	font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+
+}
+
+.box{
+	margin-left: 0px;
+	width: 0px;
+	height: 0px;
+	font-style: italic;
+    font-weight: bold;
+    font-size: 0px;
+    font-family: arial, sans-serif;
+    border-color: white;
+    flood-color: white;
+}
+.calc{
+	margin-left: 650px;
+	width: 250px;
+	height: 50px;
+	font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+
+}
+
+h3{
+	margin-left: 650px;
+	font-style: bold;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+
