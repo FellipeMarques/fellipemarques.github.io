@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+ 	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin="">
+   	
+
+   </script>
+	<title>Geolocalização</title>
+</head>
+<body>
+	<div id="mapid" style="height: 300px" "width: 200px"></div>
+<div align="center">
+<h1 class="ltg">Insira os dados para que uma reta seja traçada no mapa acima</h1>
+	<hr>
+	<h2 class="dv1">Sua latitude:</h2>
+	<input id="latitude"  type="txt" name="latitude" class="lt">
+	<h2>Sua longitude:</h2>
+	<input id="longitude"  type="txt" name="longitude" class="lt">
+	<h2>Latitude do destino:</h2>
+	<input id="latitude2"  type="txt" name="latitude" class="lt">
+	<h2>Longitude do destino:</h2>
+	<input id="longitude2"  type="txt" name="longitude" class="lt"><br>
+	<button id="btn_buscar" class="bt">Procurar</button>
+</div>
+
+<script src="apiJS.js"></script>
+
+</body>
+</html>
